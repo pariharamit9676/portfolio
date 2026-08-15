@@ -3,10 +3,10 @@ import { ArrowUpRight, ArrowRight } from "lucide-react";
 
 const projects = [
   {
-    title: "AI Financial Agent",
-    description: "An advanced, context-aware AI orchestrator built to handle financial research, watchlists, and document intelligence. It features a robust multi-stage pipeline with strict anti-hallucination boundaries, structured output validation via Zod, and deterministic database mutations.",
-    skills: ["Node.js", "TypeScript", "PostgreSQL", "Prisma", "Groq LLM", "Express"],
-    link: "https://t.me/MeetAtlasBot",
+    title: "NotifyHub",
+    description: "A highly scalable, multi-channel notification infrastructure built to reliably deliver Email, SMS, and Push notifications. It features a robust queue-based architecture using Redis and BullMQ, complex email provider failover logic, and a real-time Live Queue Manager.",
+    skills: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Redis", "BullMQ", "Socket.IO"],
+    link: "https://notifyhub-rose.vercel.app/login",
     image: "/notifyhub.png"
   },
   {
