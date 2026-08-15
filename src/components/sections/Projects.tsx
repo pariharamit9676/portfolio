@@ -3,17 +3,17 @@ import { ArrowUpRight, ArrowRight } from "lucide-react";
 
 const projects = [
   {
-    title: "NotifyHub",
-    description: "A scalable, multi-channel notification infrastructure platform designed to manage and deliver messages across Email, SMS, and Push Notifications. Built with a focus on reliability and high throughput, it uses a queue-based architecture to handle bulk notifications with real-time analytics.",
-    skills: ["React", "TypeScript", "Node.js", "MongoDB", "Redis", "BullMQ", "Tailwind CSS"],
-    link: "https://notifyhub-rose.vercel.app/login",
+    title: "AI Financial Agent",
+    description: "An advanced, context-aware AI orchestrator built to handle financial research, watchlists, and document intelligence. It features a robust multi-stage pipeline with strict anti-hallucination boundaries, structured output validation via Zod, and deterministic database mutations.",
+    skills: ["Node.js", "TypeScript", "PostgreSQL", "Prisma", "Groq LLM", "Express"],
+    link: "https://t.me/MeetAtlasBot",
     image: "/notifyhub.png"
   },
   {
     title: "Nerochat",
     description: "A comprehensive WhatsApp marketing and customer support platform. I spearheaded the frontend development, building complex interfaces including a visual drag-and-drop chatbot flow builder, a real-time shared team inbox, and dynamic campaign dashboards.",
     skills: ["React.js", "Socket.io", "Redux Toolkit", "Tailwind CSS"],
-    link: "https://app.nerochat.in/",
+    link: "https://nerochat.in/features",
     image: "/nerochat-app.png"
   }
 ];

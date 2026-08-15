@@ -10,9 +10,17 @@ export const metadata = {
 const archiveProjects = [
   {
     year: "2026",
+    title: "AI Financial Agent",
+    madeAt: "Personal",
+    builtWith: ["Node.js", "TypeScript", "PostgreSQL", "Prisma", "Groq LLM", "Zod"],
+    link: "https://t.me/MeetAtlasBot",
+    linkText: "@MeetAtlasBot"
+  },
+  {
+    year: "2026",
     title: "NotifyHub",
     madeAt: "Personal",
-    builtWith: ["React", "TypeScript", "Node.js", "MongoDB", "Redis", "BullMQ", "Tailwind CSS"],
+    builtWith: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Redis", "BullMQ", "Socket.IO"],
     link: "https://notifyhub-rose.vercel.app/login",
     linkText: "notifyhub-rose.vercel.app"
   },
@@ -21,8 +29,8 @@ const archiveProjects = [
     title: "Nerochat",
     madeAt: "Nerotix Pvt. Ltd.",
     builtWith: ["React.js", "Socket.io", "Redux Toolkit", "Tailwind CSS"],
-    link: "https://app.nerochat.in/",
-    linkText: "app.nerochat.in"
+    link: "https://nerochat.in/features",
+    linkText: "nerochat.in/features"
   },
   {
     year: "2025",

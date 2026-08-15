@@ -101,25 +101,42 @@ export default function Resume() {
               </ul>
             </div>
 
-            <h2 className="text-sm font-semibold uppercase tracking-widest text-slate-200 mt-16 mb-8 print:text-[16px] print:text-[#1d4ed8] print:normal-case print:tracking-normal print:mt-0 print:mb-3">Education</h2>
-            <div className="mb-8 print:mb-4">
-              <div className="flex flex-col sm:flex-row sm:items-baseline justify-between mb-2 print:mb-0.5 print:justify-start">
-                <h3 className="font-medium leading-snug text-slate-200 print:text-[14px] print:text-slate-900 print:font-bold">
-                  Master's in Computer Application
-                </h3>
-                <span className="mt-1 sm:mt-0 text-xs font-semibold uppercase tracking-wide text-slate-500 print:text-[11px] print:text-slate-500 print:font-bold print:normal-case print:tracking-normal print:ml-2.5 print:mt-0">2023 &mdash; 2025</span>
+            <h2 className="text-sm font-semibold uppercase tracking-widest text-slate-200 mt-16 mb-8 print:text-[16px] print:text-[#1d4ed8] print:normal-case print:tracking-normal print:mt-0 print:mb-3">Selected Projects</h2>
+
+            <div className="mb-12 print:mb-6">
+              <div className="mb-4 print:mb-1">
+                <div className="flex flex-col sm:flex-row sm:items-baseline justify-between">
+                  <h3 className="font-medium leading-snug text-slate-200 print:text-[14px] print:text-slate-800 font-bold">
+                    <a href="https://notifyhub-rose.vercel.app/login" target="_blank" rel="noreferrer" className="hover:text-teal-300 transition-colors focus-visible:text-teal-300">NotifyHub</a> <span className="font-normal text-slate-400 print:text-slate-600">&middot; Multi-Channel Bulk Notification Service</span>
+                  </h3>
+                </div>
+                <div className="mt-1.5 text-xs font-medium text-slate-500 print:text-[10px] print:text-slate-500 print:mt-0.5">
+                  (React, TypeScript, Node.js, Express, MongoDB, Redis, BullMQ, Socket.IO)
+                </div>
               </div>
-              <p className="text-sm text-slate-400 print:text-[11px] print:text-slate-700">Institute of Technology Management College</p>
+              <ul className="list-disc list-outside ml-4 space-y-2 text-sm leading-normal text-slate-400 print:space-y-1 print:text-[11px] print:text-slate-700 print:leading-relaxed print:marker:text-slate-500">
+                <li>Engineered a highly scalable notification infrastructure supporting Email, SMS, and FCM push notifications via a queue-based architecture powered by Node.js, Redis, and BullMQ.</li>
+                <li>Architected a robust email provider failover system (MailBluster &rarr; SendGrid &rarr; Nodemailer) incorporating exponential backoff, retry logic, and circuit breakers to guarantee delivery.</li>
+                <li>Developed a Live Queue Manager utilizing Socket.IO for real-time tracking of notification lifecycles, SendGrid webhooks, template scheduling, and priority-based dispatching.</li>
+              </ul>
             </div>
 
-            <div className="mb-8 print:mb-4">
-              <div className="flex flex-col sm:flex-row sm:items-baseline justify-between mb-2 print:mb-0.5 print:justify-start">
-                <h3 className="font-medium leading-snug text-slate-200 print:text-[14px] print:text-slate-900 print:font-bold">
-                  Bachelor of Computer Application
-                </h3>
-                <span className="mt-1 sm:mt-0 text-xs font-semibold uppercase tracking-wide text-slate-500 print:text-[11px] print:text-slate-500 print:font-bold print:normal-case print:tracking-normal print:ml-2.5 print:mt-0">2019 &mdash; 2022</span>
+            <div className="mb-12 print:mb-6">
+              <div className="mb-4 print:mb-1">
+                <div className="flex flex-col sm:flex-row sm:items-baseline justify-between">
+                  <h3 className="font-medium leading-snug text-slate-200 print:text-[14px] print:text-slate-800 font-bold">
+                    AI Financial Agent <span className="font-normal text-slate-400 print:text-slate-600">&middot; Intelligent Telegram Bot</span>
+                  </h3>
+                </div>
+                <div className="mt-1.5 text-xs font-medium text-slate-500 print:text-[10px] print:text-slate-500 print:mt-0.5">
+                  (Node.js, TypeScript, PostgreSQL, Prisma, Groq LLM, Express, Zod)
+                </div>
               </div>
-              <p className="text-sm text-slate-400 print:text-[11px] print:text-slate-700">Maharana Pratap College of Technology</p>
+              <ul className="list-disc list-outside ml-4 space-y-2 text-sm leading-normal text-slate-400 print:space-y-1 print:text-[11px] print:text-slate-700 print:leading-relaxed print:marker:text-slate-500">
+                <li>Engineered an advanced AI orchestrator utilizing Node.js, TypeScript, and Express, implementing a robust multi-stage pipeline (NLU &rarr; Planner &rarr; Tool Executor) for processing webhooks.</li>
+                <li>Architected an anti-hallucination framework integrating Groq LLMs with deterministic database mutations via PostgreSQL and Prisma.</li>
+                <li>Integrated financial APIs and Document Intelligence, enabling real-time company research, watchlist management, and context-aware conversational memory.</li>
+              </ul>
             </div>
           </div>
 
@@ -149,33 +166,32 @@ export default function Resume() {
               </p>
             </div>
 
-            <div className="mb-6 print:mb-3">
+            <div className="mb-12 print:mb-5">
               <h3 className="font-medium leading-snug text-slate-200 mb-2 print:text-[13px] print:text-slate-900 print:mb-0.5">Databases</h3>
               <p className="text-sm leading-normal text-slate-400 print:text-[11px] print:text-slate-700 print:leading-relaxed">
                 MySQL, MongoDB
               </p>
             </div>
 
-            <div className="mb-12 print:mb-5">
-              <h3 className="font-medium leading-snug text-slate-200 mb-2 print:text-[13px] print:text-slate-900 print:mb-0.5">Coursework</h3>
-              <p className="text-sm leading-normal text-slate-400 print:text-[11px] print:text-slate-700 print:leading-relaxed">
-                DBMS, OOPs
-              </p>
-            </div>
-
-            <h2 className="text-sm font-semibold uppercase tracking-widest text-slate-200 mb-8 print:text-[16px] print:text-[#1d4ed8] print:normal-case print:tracking-normal print:mb-3">Selected Projects</h2>
+            <h2 className="text-sm font-semibold uppercase tracking-widest text-slate-200 mb-8 print:text-[16px] print:text-[#1d4ed8] print:normal-case print:tracking-normal print:mb-3">Education</h2>
 
             <div className="mb-6 print:mb-3">
-              <h3 className="font-medium leading-snug text-slate-200 mb-2 print:text-[13px] print:text-slate-900 print:mb-0.5">Nerochat</h3>
+              <h3 className="font-medium leading-snug text-slate-200 mb-1 print:text-[13px] print:text-slate-900 print:font-bold">
+                Master's in Computer Application
+              </h3>
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-1 print:text-[10px] print:text-slate-500 print:font-bold print:normal-case print:tracking-normal">2023 &mdash; 2025</p>
               <p className="text-sm leading-normal text-slate-400 print:text-[11px] print:text-slate-700 print:leading-relaxed">
-                A comprehensive WhatsApp marketing and customer support platform. I spearheaded the development, architecting robust backend systems alongside complex interfaces including a visual drag-and-drop chatbot flow builder, a real-time shared team inbox, and dynamic campaign dashboards.
+                Institute of Technology Management College
               </p>
             </div>
 
             <div className="mb-12 print:mb-5">
-              <h3 className="font-medium leading-snug text-slate-200 mb-2 print:text-[13px] print:text-slate-900 print:mb-0.5">NotifyHub</h3>
-              <p className="text-sm leading-normal text-slate-400 print:text-[11px] print:text-slate-700 print:leading-snug">
-                A scalable, multi-channel notification infrastructure platform designed to manage and deliver messages across Email, SMS, and Push Notifications. Built with a focus on reliability and high throughput, it uses a queue-based architecture (Redis & BullMQ) to handle bulk notifications, featuring real-time analytics, failover mechanisms, and dynamic template management.
+              <h3 className="font-medium leading-snug text-slate-200 mb-1 print:text-[13px] print:text-slate-900 print:font-bold">
+                Bachelor of Computer Application
+              </h3>
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-1 print:text-[10px] print:text-slate-500 print:font-bold print:normal-case print:tracking-normal">2019 &mdash; 2022</p>
+              <p className="text-sm leading-normal text-slate-400 print:text-[11px] print:text-slate-700 print:leading-relaxed">
+                Maharana Pratap College of Technology
               </p>
             </div>
 
